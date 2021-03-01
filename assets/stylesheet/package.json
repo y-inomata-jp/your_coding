@@ -1,0 +1,38 @@
+{
+  "name": "your_coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:css": "stylelint --fix ./sass/*.{css,scss,sass}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-inomata-jp/your_coding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y-inomata-jp/your_coding/issues"
+  },
+  "homepage": "https://github.com/y-inomata-jp/your_coding#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "css-declaration-sorter": "^5.1.1",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-assets": "^5.0.0",
+    "stylelint": "^13.9.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-scss": "^3.19.0"
+  }
+}

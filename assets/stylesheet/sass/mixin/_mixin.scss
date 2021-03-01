@@ -1,0 +1,11 @@
+@import "config/setting";
+
+@mixin z-index($key) {
+  z-index: map-get($layer,$key);
+}
+
+@mixin media($breakpoint){
+  @media #{map-get($breakpoints,$breakpoint)}{
+    @content;
+  }
+}

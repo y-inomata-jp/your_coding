@@ -1,0 +1,250 @@
+// common
+
+.ly-inner{
+  max-width: 1230px;
+  padding-right: 15px;
+  padding-left:15px;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+// main
+
+.ly-main{
+  padding-top:9.4rem;
+}
+
+// service
+
+.ly-service{
+  padding-top:15.6rem;
+  padding-bottom:15.5rem;
+  background-image: url("../../img/front-page/楕円形.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: bottom 8.7rem right -8.7rem;
+  @include z-index(back-img);
+  @include media('md')
+  {
+    padding-top:6rem;
+    padding-bottom:6rem;
+    background-position: bottom 2rem right -30.7rem;
+  }
+  @include media('sm')
+  {
+    padding-top:3rem;
+    padding-bottom:3rem;
+    background-position: left -17.7rem;
+    .bl-service-ttl{
+      font-size: 2.8rem;
+    }
+    .bl-service > .el-btn{
+      text-align: center;
+      margin-bottom:3rem;
+    }
+  }
+}
+
+// feature
+
+.ly-feature{
+  padding-top:6.9rem;
+  padding-bottom: 15.7rem;
+  @include media('sm')
+  {
+    padding-bottom: 8.7rem;
+  }
+  .un-feature-contUnit{
+    margin-bottom: -8.35rem;
+  }
+  .un-feature-cont{
+    margin-bottom: 8.35rem;
+  }
+  .un-feature-cont-ttl{
+    margin-bottom: 4.45rem;
+    @include media('sm')
+    {
+      margin-bottom: 0.45rem;
+    }
+  }
+  .un-feature-cont-txt{
+    margin-top:4.15rem;
+  }
+  .un-feature-cont-desc{
+    margin-top: 5.25rem;
+    @include media('md')
+    {
+      margin-top: 4.65rem;
+      font-size: 2.2rem;
+    }
+    @include media('sm')
+    {
+      font-size: 2.1rem;
+    }
+  }
+  @include media('sm')
+  {
+   .un-feature-imgWrapper{
+    margin-top:2.5rem;
+    margin-bottom:-2.5rem;
+   }
+  }
+}
+
+// price
+
+.price{
+  background: #eefbfb;
+}
+
+.ly-price{
+  padding-top:5.3rem;
+  padding-bottom: 6.55rem;
+}
+
+.un-price-table{
+  margin-bottom: 3.55rem;
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 1.6rem;
+  color: #333;
+  table{
+    width: 100%;
+    @include media('sm')
+    {
+      th,td{
+        width: 100%;
+        display: block;
+      }
+      th{
+        border-top: 2px solid #DFDFDF;
+        border-right: 2px solid #DFDFDF;
+        border-left: 2px solid #DFDFDF;
+      }
+      td{
+        border-right: 2px solid #DFDFDF;
+        border-bottom: 2px solid #DFDFDF;
+        border-left: 2px solid #DFDFDF;
+      }
+    }
+  }
+  th{
+    width: 31.263498%;
+    padding: 4rem 3.65rem 3.55rem 3.05rem;
+    background: transparent;
+    border: 1px solid #e5e5e5;
+  }
+  td{
+    padding: 4rem 3.05rem 3.55rem;
+    border: 1px solid #e5e5e5;
+    vertical-align: middle;
+    @include media('sm')
+    {
+      text-align: center;
+    }
+  }
+}
+
+// faq
+
+.ly-faq{
+  padding-top:5.3rem;
+  padding-bottom: 8.6rem;
+}
+
+.un-faq-table{
+  max-width:66.398243vw;
+  margin-right: auto;
+  margin-left: auto;
+  table{
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 1.85714;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    th{
+      padding: 2.2rem 1.7rem 2.1rem 1.7rem;
+      color: #333;
+      text-align: center;
+      border: 1px solid #e5e5e5;
+      cursor :pointer;  
+    }
+    td{
+      padding:1.8rem 3.5rem 1.7rem 3.5rem;
+      color: #444;
+      background: #f2f2f2;
+      border: 1px solid #e5e5e5;
+      @include media('sm')
+      {
+        padding:1.8rem 1.5rem 1.7rem 1.5rem;
+      }
+    }
+  }
+}
+
+// blog
+
+.blog{
+  background: #eefbfb;
+}
+
+.ly-blog{
+  padding-top:5.3rem;
+  padding-bottom: 5.6rem;
+}
+
+// works
+
+.ly-works{
+  padding-top:4.85rem;
+  padding-bottom: 9.9rem;
+}
+
+// inquiry
+
+.inquiry{
+  background: linear-gradient(to right,#05a5fa 0%, #63fbd7 100%, #67ffd6 100%);
+}
+
+.ly-inquiry{
+  padding-top:6.1rem;
+  padding-bottom: 8.2rem;
+}
+
+.ly-formWrapper{
+  max-width: 908px;
+  width:66.174vw;
+    @include media('sm')
+  {
+    width:32rem;
+  }
+  margin-right: auto;
+  margin-left:auto;
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+// footer
+
+.ly-footer{
+  padding-top:4.2rem;
+  padding-bottom: 5rem;
+}
+.footer{
+  span{
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+    font-size: 1.6rem;
+    @include media('sm')
+    {
+      font-size: 1.1rem;
+    }
+  }
+  small{
+    font-size: 14px;
+    @include media('sm')
+    {
+      font-size: 1.0rem;
+    }
+  }
+}
